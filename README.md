@@ -1,1 +1,2 @@
 # Spam_Detection
+In this notebook we train a model to classify documents as spam or not spam. We use either count vectorizer or tfidf vectorizer along with character/word n-grams to make the model more robust. We train different kinds of models using multinomial Naive Bayes, support vector classifier or logistic regression. Additional features like length of document (no. of characters) and no. of digits in document are also used. Area under the ROC curve is used as evaluation metric. Data for this notebook has been downloaded from coursera.
